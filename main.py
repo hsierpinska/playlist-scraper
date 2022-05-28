@@ -2,7 +2,8 @@
 from selenium import webdriver
 import time
 from selenium.webdriver.common.keys import Keys
-PATH = "D:/chromedriver/chromedriver.exe"
+print("Specify chromedriver path: ")
+PATH = input()
 file = open('videos.txt', 'w')
 
 driver = webdriver.Chrome(PATH)
